@@ -20,7 +20,6 @@ public class CatParametrizedTest {
         return new Object[][] {
                 { "Самка", "false"},
                 { "Самец", "true"},
-
         };
     }
 
