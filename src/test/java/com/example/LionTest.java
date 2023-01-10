@@ -5,15 +5,11 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
-
 import java.util.List;
-
 import static org.junit.Assert.*;
 
 @RunWith(MockitoJUnitRunner.class)
 public class LionTest {
-
-
 
     @Mock
     Feline feline;
@@ -24,7 +20,6 @@ public class LionTest {
         Lion lion = new Lion("Самка");
         assertEquals(2, feline.getKittens());
     }
-
 
     @Test
     public void getFood() throws Exception {
